@@ -58,15 +58,27 @@ body {
     border: none;
     border-radius: 10px;
     font-weight: 700;
+    font-size: 14px;
 }
 
 .btn:hover {
     background-color: var(--color-green) !important;
     color: var(--color-grey-900);
     border: none;
+    outline: none;
 }
 
 .btn:active {
     background-color: var(--color-green) !important;
-    border: none;
+    color: var(--color-grey-900) !important;
+    outline: none;
+    border: none;    
+    box-shadow: none; /* Remove qualquer sombra ao clicar */
+}
+
+.btn:focus, .btn:focus:active, .btn:focus-visible {
+    background-color: var(--color-green) !important;
+    color: var(--color-grey-900) !important;
+    outline: none !important;
+    box-shadow: none !important; /* Remove qualquer sombra de foco */
 }
