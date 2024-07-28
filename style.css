@@ -54,7 +54,7 @@ body {
     background-color: var(--color-grey-700) !important;
     width: 20rem;
     height: 3rem;
-    line-height: 2rem;
+    line-height: 2.2rem;
     border: none;
     border-radius: 10px;
     font-weight: 700;
