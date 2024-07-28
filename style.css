@@ -13,7 +13,7 @@ body {
 
 .container {
     width: 24rem;
-    height: 32.625rem;
+    height: 40rem;
     border-radius: 18px;
     background-color: var(--color-grey-800);
 }
@@ -48,4 +48,13 @@ body {
     font-weight: 300;
     font-size: 12px;
     padding: 12px;
+}
+
+.button .btn {
+    background-color: var(--color-grey-700) !important;
+    width: 20rem;
+    height: 3rem;
+    line-height: 2rem;
+    border: none;
+    border-radius: 10px;
 }
